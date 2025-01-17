@@ -1,11 +1,3 @@
-body {
-background-color: rgb(226, 24, 85);    
-}
+@use './abstracts/_universal';
 
-
-p {
-    color: red;
-}
-.paragraph {
-    background-color: aqua;
-}
+@use './layouts/_navigation';
